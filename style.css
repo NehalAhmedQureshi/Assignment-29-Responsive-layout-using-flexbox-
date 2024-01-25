@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    /* margin: 0%; */
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 97vh;
+}
+.header {
+    flex-grow: 1;
+    border: 2px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:15px;
+    padding-top: 20px;
+    padding-bottom: 2px;
+    /* margin: 5px; */
+    padding-bottom: 5px;
+}
+span {
+    background-color: greenyellow;
+    padding: 10px;
+}
+
+.bodycontent {
+    flex-grow: 6;
+    border: 2px solid orange;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow: hidden;
+}
+.content {
+    padding: 20px;
+    gap: 10px;
+    flex-grow: 3;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid firebrick;
+}
+.div1 {
+    /* flex-grow: 1; */
+    border: 4px solid hotpink;
+}
+#div1 {
+    float: left;
+    width: 200px;
+    max-width: 70px;
+    min-width: 10px;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.div2 {
+    /* flex-grow: 1; */
+    border: 4px solid khaki;
+    text-align: right;
+}
+#div2 {
+    float: right;
+    width: 200px;
+    max-width: 70px;
+    min-width: 10px;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.div3 {
+    /* flex-grow: 1; */
+    border: 4px solid rebeccapurple;
+}
+#div3 {
+    float: left;
+    width: 200px;
+    max-width: 70px;
+    min-width: 10px;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.sidemenu {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid black;
+    flex-grow: 1;
+}
+.sidemenu div {
+    margin-left: 25%;
+    width: 50%;
+    background-color: skyblue;
+    padding: 5px;
+}
+
+.footer {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    border: 2px solid green;
+    /* height: 15vh; */
+}
+.footerwrap {
+    display: flex;
+    width: 60%;
+    padding: 10px;
+}
+.footerwrap div {
+    text-align: center;
+    flex-grow: 1;
+    /* border: 2px solid brown; */
+    padding-top: 12px;
+}
+.footerdiv1 {
+    background-color: skyblue;
+    flex-shrink: 1;
+}
+.footerdiv2 {
+    flex-grow: 2 !important;
+    background-color: lightcoral;
+    flex-shrink: 3;
+}
+.footerdiv3 {
+    background-color: lightgreen;
+    flex-shrink: 1;
+}
